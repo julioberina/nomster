@@ -1,3 +1,11 @@
+<div class="container page-container">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <%= paginate @places %>
+  </div>
+  <div class="col-2"></div>
+</div>
+
 <% @places.each do |place| %>
   <div class="booyah-box col-10 offset-1">
     <h1><%= place.name %></h1>
