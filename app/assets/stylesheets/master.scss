@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Days+One');
 
 body {
   background: image_url('starring.png');
@@ -8,6 +9,12 @@ body {
 .navbar {
   background: image_url('hixs_pattern_evolution.png');
   box-shadow: 0px 1px 3px #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ff2828;
+  font-family: 'Days One', sans-serif;
+  font-size: 26px;
 }
 
 .booyah-box {
