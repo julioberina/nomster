@@ -24,6 +24,8 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 # Use Bootstrap 4 for styling HTML elements
 gem 'bootstrap', '~> 4.0.0.alpha6'
+# Use Simple Form to put...well..a simple form in our application
+gem 'simple_form'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
