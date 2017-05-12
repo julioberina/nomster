@@ -57,6 +57,9 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "nomster_#{Rails.env}"
   config.action_mailer.perform_caching = false
 
+  # Default url option for production
+  config.action_mailer.default_url_options = { host: 'nomster-julio-berina.herokuapp.com' }
+
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
