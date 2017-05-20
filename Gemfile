@@ -20,6 +20,8 @@ gem 'kaminari'
 gem 'font-awesome-rails'
 # Use devise for user authentication and what-not
 gem 'devise'
+# Use Figaro for ENV variables
+gem 'figaro'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Geocoder
