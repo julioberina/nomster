@@ -18,6 +18,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'kaminari'
 # Use Font Awesome to get awesome fonts
 gem 'font-awesome-rails'
+# Use carrierwave
+gem 'carrierwave'
 # Use devise for user authentication and what-not
 gem 'devise'
 # Use Figaro for ENV variables
