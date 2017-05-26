@@ -52,6 +52,9 @@ class PlacesController < ApplicationController
       return render text: 'Not Allowed', status: :forbidden
     end
 
+    @place.photos.each { |photo| photo.destroy }
+    @place.comments.each { |comment| comment.destroy }
+
     @place.destroy
     redirect_to root_path
   end
